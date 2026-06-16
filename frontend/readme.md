@@ -57,61 +57,7 @@ O sistema permite visualizar os campeonatos cadastrados, listar todos os times e
 * Um campeonato possui vários times.
 * Um time pertence a apenas um campeonato.
 
----
-
-# 🔗 Endpoints da API
-
-## Listar Campeonatos
-
-```http
-GET /campeonatos
-```
-
-### Exemplo de resposta
-
-```json
-[
-  {
-    "id": 1,
-    "nome": "Brasileirão"
-  }
-]
-```
-
----
-
-## Listar Todos os Times
-
-```http
-GET /times
-```
-
-### Exemplo de resposta
-
-```json
-[
-  {
-    "id": 1,
-    "time": "Flamengo",
-    "campeonato": "Brasileirão"
-  }
-]
-```
-
----
-
-## Listar Times por Campeonato
-
-```http
-GET /campeonatos/:id/times
-```
-
-### Exemplo
-
-```http
-GET /campeonatos/1/times
-```
-
+--
 
 ---
 
